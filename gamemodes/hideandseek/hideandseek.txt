@@ -1,0 +1,90 @@
+"Hide and Seek"
+{
+	"base"		"base"
+	"title"		"Hide and Seek"
+	"maps"		"^has_"
+	"menusystem"	"1"
+	"settings"
+	{
+		1
+		{
+			"name"		"has_seekoncaught"
+			"text"		"Caught players seek?"
+			"help"		"If enabled, caught players will join the seekers. Otherwise, they will have to spectate until next round."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		2
+		{
+			"name"		"has_infinitestamina"
+			"text"		"Infinite stamina?"
+			"help"		"If enabled, all players will be able to sprint five-ever."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		3
+		{
+			"name"		"has_minplayers"
+			"text"		"Minimum players to start"
+			"help"		"The minimum amount of players need to start a round."
+			"type"		"Numeric"
+			"default"	"2"
+		}
+
+		4
+		{
+			"name"		"has_timelimit"
+			"text"		"Time to seek (0 is infinite)"
+			"help"		"The amount of time in seconds that players are allowed to seek."
+			"type"		"Numeric"
+			"default"	"180"
+		}
+
+		5
+		{
+			"name"		"has_choosetype"
+			"text"		"First player caught seeks?"
+			"help"		"If enabled, the first player caught will seek the next round. Otherwise, it will random."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		6
+		{
+			"name"		"has_maxrounds"
+			"text"		"Rounds til map change"
+			"help"		"The amount of rounds to play until the map is changed."
+			"type"		"Numeric"
+			"default"	"12"
+		}
+
+		7
+		{
+			"name"		"has_envdmgallowed"
+			"text"		"Will the map hurt players?"
+			"help"		"If enabled, players will get caught and respawned when attacked by the world."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		8
+		{
+			"name"		"has_lasttrail"
+			"text"		"Enable last hider's trail?"
+			"help"		"If enabled, the last hider will have a blue trail following them to give seekers a hint."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		9
+		{
+			"name"		"has_dyntagging"
+			"text"		"Enable dynamic tag-ranges?"
+			"help"		"If enabled, the area-tagging range will shrink when next to walls and objects.\n - This would heavily minimize the chances of being tagged through walls.\n - NOTE: This can cause lag when there are lots of players."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+	}
+}
